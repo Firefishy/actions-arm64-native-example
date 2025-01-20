@@ -1,5 +1,10 @@
 name: build
 
+# Ensure you have packages: write if you need to push to GHCR
+permissions:
+  contents: read
+  packages: write
+
 on:
   push:
   pull_request:
